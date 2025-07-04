@@ -1,61 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CAR web page</title>
-    <link rel="shortcut icon" href="arial.jpg" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/bbb298f7c1.js" crossorigin="anonymous"></script>
-</head>
-<style>
-    .foto {
-    height: 50px;
-    width: 25px;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="shortcut icon" href="cooc.jpg" type="image/x-icon">
+  <style>
+      body{
+        margin: 20px ;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 12px;
+        position: static;
+        
+      }
+.hero-image{background-image: url("/next.jpg");
+background-color: #ccc;
+height:  500px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+position: relative;
+}
+.hero-text{
+  color: black;
+  text-align: center;
+  position: absolute;
+  font-size: 10
+  px;
+ font-weight: 500;
+  
+  
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+
+}
+  ul.link{
+    list-style: none;
     display: flex;
-    margin-top: 100px !important;
-    justify-content: center; /* Horizontal center */
-    align-items: center;     /* Vertical center */
-    background-color: #f0f0f0; /* optional, just to see the box */
+    justify-content: center;
+    padding: 40px;
+    margin: 20px ;
+
 }
-
-
-
-    
-    ul.link {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px ;
-  margin: 0;
+ul.link li{
+  margin: 0 20px;
 }
-
-ul.link li {
-  margin: 0 15px;
-}
-
-ul.link a {
+ul.link a{
   text-decoration: none;
-  /* color: inherit; */
+  color: inherit;
 }
-</style>
+.hero-bot{
+  font-style: bold;
+}
+.hero-lol {
+ position: absolute;
+ top:  10px;
+ right: 10px;
+ display: flex;
+ gap: 15px;
+
+}
+.hero-lol a{
+  font-size: 24px;
+  text-decoration:none
+}
+.hero-sok{
+ position: relative;
+ width: 100%;
+ height: 100vh;
+}
+img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: auto;}
+    .moon-moon{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: rgb(144, 140, 148);
+
+
+      border:  20px solid black;
+     width: 500px;
+     height: 340px;
+     box-sizing: border-box;
+     padding: 9px;
+     text-align: center;
+     border-style: dashed;
+     font-style: italic;
+     color: rgb(12, 1, 29);
+     margin: 20px;
+    }
+
+  
+
+
+
+
+
+  
+
+  </style>
+</head>
 <body>
-<ul class="link">
+
+
+
+
+
+  <div class="hero-image"> 
+    <div class="hero-text">
+      <h1 style="color: rgb(2, 0, 10);" style="font-size: 25px;"> I am Shafaiat chowdhury.I am 20 years ould. I am passed my intermidiat at Omorgani M.E.S college.  </h1>
+      <h3 style="color: rgb(3, 0, 12);"> I am a web Devloper.As a web devloper we have some condition .....</h3>
+      <button style="color: rgb(4, 14, 102);" class="hero-bot"><strong> HIRE ME</strong></button>
+      </div>
+      <div>
+       <ul class="link">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Review</a></li>
                 <li><a href="#">Featured</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+            
 
-            <div>
-                <i class="fa-solid fa-envelope"></i>
-            </div>
+  </div>
+  <div class=" hero-lol">
+    <a href="https://mail.google.com/mail/u/0/#inbox">📪</a>
+    <a href="https://www.whatsapp.com/ "> 🏁</a>
+    <a href="https://myaccount.google.com/"> 🌏</a>
 
-            <div class="foto">
-              <img src="open.jpg">
-
-            </div>
+  </div>
+  <div class="hero-sok">
+  <img src="cooc.jpg" alt=" a marattok vewe">
+  </div>
+   <p style="font-size: xx-large;" class=" moon-moon"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quo, veritatis est quaerat at esse ipsum in, nesciunt quidem totam, odit corporis molestiae cumque. Atque nesciunt animi blanditiis necessitatibus rem.</p>
+  </div>
+  
     
+  
+
+  
 </body>
 </html>
